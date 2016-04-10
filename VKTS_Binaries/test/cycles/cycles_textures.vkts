@@ -1,0 +1,15 @@
+#
+# VulKan ToolS textures.
+#
+
+image_library cycles_images.vkts
+
+#
+# Texture.
+#
+
+name Image_Texture_texture
+
+mipmap true
+image desert_image
+

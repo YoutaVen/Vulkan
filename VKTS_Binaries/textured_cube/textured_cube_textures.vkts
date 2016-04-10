@@ -1,0 +1,15 @@
+#
+# VulKan ToolS textures.
+#
+
+image_library textured_cube_images.vkts
+
+#
+# Texture.
+#
+
+name Diffuse_texture
+
+mipmap true
+image crate_image
+

@@ -1,0 +1,16 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library bezier_animation_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Cube
+
+submesh Cube_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+

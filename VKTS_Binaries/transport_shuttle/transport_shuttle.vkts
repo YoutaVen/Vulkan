@@ -1,0 +1,32 @@
+#
+# VulKan ToolS scene.
+#
+
+scene_name Scene
+
+object_library transport_shuttle_objects.vkts
+
+#
+# Object instance.
+#
+
+object Transport_Shuttle
+
+name Transport_Shuttle
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Moon
+
+name Moon
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+

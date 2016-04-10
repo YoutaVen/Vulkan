@@ -1,0 +1,52 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library basic_scene_meshes.vkts
+
+animation_library basic_scene_animations.vkts
+
+#
+# Object.
+#
+
+name Empty
+
+# Node.
+
+node Empty -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 10.000001 0.000000
+scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Cone Empty
+
+translate 0.000000 2.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cone
+
+# Node.
+
+node Cube Empty
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube
+
+# Node.
+
+node Sphere Empty
+
+translate 2.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Sphere
+

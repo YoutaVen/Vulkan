@@ -1,0 +1,402 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library transport_shuttle_meshes.vkts
+
+animation_library transport_shuttle_animations.vkts
+
+#
+# Object.
+#
+
+name Transport_Shuttle
+
+# Node.
+
+node Transport_Shuttle -
+
+translate 0.005287 0.058319 -0.000011
+rotate 0.021771 -89.999968 0.000024
+scale 1.000000 1.000000 1.000000
+
+animation animation_Transport_Shuttle
+
+joints 13
+
+# Node.
+
+node Bone_Root Transport_Shuttle
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 0
+
+bind_translate -0.008865 0.900000 0.000000
+bind_rotate 0.000000 0.000004 90.000009
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Left_Upper_Door Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate -61.927515 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 1
+
+bind_translate 2.460908 -1.277979 0.405742
+bind_rotate 126.851844 0.000056 -90.000160
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_Bone_Left_Upper_Door
+
+# Node.
+
+node Bone_Left_Lower_Door Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate 165.750017 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 2
+
+bind_translate 0.666662 -1.286320 2.289589
+bind_rotate -33.761803 0.450316 -90.301029
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_Bone_Left_Lower_Door
+
+# Node.
+
+node Bone_Right_Lower_Door Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate -165.750017 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 3
+
+bind_translate 0.666662 -1.286320 -2.289589
+bind_rotate 33.761816 0.450314 -89.698996
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_Bone_Right_Lower_Door
+
+# Node.
+
+node Bone_Right_Upper_Door Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate 61.927515 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 4
+
+bind_translate 2.460909 -1.277979 -0.405742
+bind_rotate -126.851817 0.000048 -90.000003
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_Bone_Right_Upper_Door
+
+# Node.
+
+node Bone_Right_Leg Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 5
+
+bind_translate -0.388377 1.276417 -0.555604
+bind_rotate 89.999989 -164.273727 -0.000009
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Right_Outer_Leg Bone_Right_Leg
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 6
+
+bind_translate -0.000000 1.890651 0.000000
+bind_rotate 0.000000 -0.000001 15.726256
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Front_Leg Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 7
+
+bind_translate -0.025411 4.513725 -0.000000
+bind_rotate -29.842012 89.999982 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Front_Outer_Leg Bone_Front_Leg
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 8
+
+bind_translate -0.000000 1.759229 -0.000000
+bind_rotate 89.999955 60.157991 89.999968
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Back_Leg Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 9
+
+bind_translate -0.025411 -4.715332 0.000000
+bind_rotate 151.363235 -89.999948 0.000000
+bind_scale 0.999999 1.000000 1.000000
+
+# Node.
+
+node Bone_Back_Outer_Leg Bone_Back_Leg
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 10
+
+bind_translate 0.000000 1.985284 -0.000000
+bind_rotate 89.999982 61.363253 89.999989
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Left_Leg Bone_Root
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 11
+
+bind_translate -0.388377 1.276417 0.555604
+bind_rotate 89.999996 -15.726270 0.000029
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Left_Outer_Leg Bone_Left_Leg
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 12
+
+bind_translate 0.000000 1.890651 0.000000
+bind_rotate 0.000008 -0.000021 -15.726268
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Booster Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Booster
+
+# Node.
+
+node Glass Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Glass
+
+# Node.
+
+node Hover_Left_Back Transport_Shuttle
+
+translate 4.256318 0.620000 1.264614
+rotate -15.000002 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover
+
+# Node.
+
+node Hover_Left_Front Transport_Shuttle
+
+translate -4.022478 0.620000 1.264614
+rotate -15.000002 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover
+
+# Node.
+
+node Hover_Left_Middle Transport_Shuttle
+
+translate 2.101357 0.620000 1.264614
+rotate -15.000002 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover
+
+# Node.
+
+node Hover_Outer Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover_Outer
+
+# Node.
+
+node Hover_Right_Back Transport_Shuttle
+
+translate 4.256318 0.620000 -1.264614
+rotate 15.999995 -0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover
+
+# Node.
+
+node Hover_Right_Front Transport_Shuttle
+
+translate -4.022478 0.620000 -1.264614
+rotate 15.999995 -0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover
+
+# Node.
+
+node Hover_Right_Middle Transport_Shuttle
+
+translate 2.101357 0.620000 -1.264614
+rotate 15.999995 -0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Hover
+
+# Node.
+
+node Inside Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Inside
+
+# Node.
+
+node Inside_Out Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Inside_Out
+
+# Node.
+
+node Legs Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Legs
+
+# Node.
+
+node Lights Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Lights
+
+# Node.
+
+node Outside Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Outside
+
+# Node.
+
+node Rest Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Rest
+
+# Node.
+
+node Seats Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Seats
+
+# Node.
+
+node Wire Transport_Shuttle
+
+translate -5.863588 2.182661 0.000000
+rotate -0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Wire
+
+#
+# Object.
+#
+
+name Moon
+
+# Node.
+
+node Moon -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Moon
+

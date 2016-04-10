@@ -1,0 +1,68 @@
+#
+# VulKan ToolS scene.
+#
+
+scene_name Scene
+
+object_library cycles_objects.vkts
+
+#
+# Object instance.
+#
+
+object Cube_005
+
+name Cube_005
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Cube_004
+
+name Cube_004
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Cube_003
+
+name Cube_003
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Cube_002
+
+name Cube_002
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Cube_001
+
+name Cube_001
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+

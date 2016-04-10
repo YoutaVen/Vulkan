@@ -1,0 +1,16 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library skinned_cylinder_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Cylinder
+
+submesh Cylinder_0
+
+aabb 0.000000 2.130579 0.440889 1.000000 2.130579 1.456777
+

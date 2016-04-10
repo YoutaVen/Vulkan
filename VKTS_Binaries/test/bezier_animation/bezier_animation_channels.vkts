@@ -1,0 +1,17 @@
+#
+# VulKan ToolS channels.
+#
+
+#
+# Channel.
+#
+
+name channel_TRANSLATE_X_Cube
+
+target_transform TRANSLATE
+target_element X
+
+keyframe 0.000000 0.000000 BEZIER -0.780823 0.000000 0.780823 0.000000
+keyframe 2.000000 4.000000 BEZIER 1.219177 4.000000 2.780823 4.000000
+keyframe 4.000000 0.000000 BEZIER 3.219177 0.000000 4.780823 0.000000
+

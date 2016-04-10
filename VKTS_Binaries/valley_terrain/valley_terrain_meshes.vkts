@@ -1,0 +1,774 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library valley_terrain_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Terrain.029
+
+submesh Terrain.029_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 0.895679 0.500000 0.500000 0.809405 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.057
+
+submesh Terrain.057_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 0.689235 -3.500000 0.500000 0.068010 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.062
+
+submesh Terrain.062_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 0.938829 -3.500000 0.500000 0.339603 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.023
+
+submesh Terrain.023_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.588235 1.500000 0.500000 0.313726 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.020
+
+submesh Terrain.020_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 -0.188235 1.500000 0.500000 0.274510 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.040
+
+submesh Terrain.040_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.363638 -0.500000 0.500000 0.069197 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.045
+
+submesh Terrain.045_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 1.356863 -1.500000 0.500000 0.235294 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.059
+
+submesh Terrain.059_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 0.916942 -3.500000 0.500000 0.141881 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.011
+
+submesh Terrain.011_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 0.188235 2.500000 0.500000 0.650980 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.052
+
+submesh Terrain.052_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 1.166431 -2.500000 0.500000 0.190432 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.002
+
+submesh Terrain.002_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 1.035294 3.500000 0.500000 0.321569 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.003
+
+submesh Terrain.003_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 0.360784 3.500000 0.500000 0.478431 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.019
+
+submesh Terrain.019_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 -0.407161 1.500000 0.500000 0.071270 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.024
+
+submesh Terrain.024_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.259953 1.500000 0.500000 0.189005 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.036
+
+submesh Terrain.036_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 0.705883 -0.500000 0.500000 0.603921 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.042
+
+submesh Terrain.042_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 0.800000 -1.500000 0.500000 0.086275 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.005
+
+submesh Terrain.005_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 -0.475817 3.500000 0.500000 0.112418 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.012
+
+submesh Terrain.012_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 -0.313725 2.500000 0.500000 0.196079 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.014
+
+submesh Terrain.014_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 -0.031372 2.500000 0.500000 0.462745 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.021
+
+submesh Terrain.021_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 0.337976 1.500000 0.500000 0.755977 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.017
+
+submesh Terrain.017_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 -0.361936 1.500000 0.500000 0.226299 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.026
+
+submesh Terrain.026_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 -0.334490 0.500000 0.500000 0.175314 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.028
+
+submesh Terrain.028_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 0.366670 0.500000 0.500000 0.766670 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.061
+
+submesh Terrain.061_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 1.229454 -3.500000 0.500000 0.190155 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.007
+
+submesh Terrain.007_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 -0.133333 3.500000 0.500000 0.062745 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.010
+
+submesh Terrain.010_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 0.466152 2.500000 0.500000 0.802043 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.022
+
+submesh Terrain.022_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 0.603922 1.500000 0.500000 0.564706 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.008
+
+submesh Terrain.008_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 -0.063465 3.500000 0.500000 0.116927 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.030
+
+submesh Terrain.030_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 1.302601 0.500000 0.500000 0.402483 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.053
+
+submesh Terrain.053_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 1.284072 -2.500000 0.500000 0.135536 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.056
+
+submesh Terrain.056_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.376471 -2.500000 0.500000 0.054902 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.004
+
+submesh Terrain.004_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 -0.153719 3.500000 0.500000 0.371771 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.031
+
+submesh Terrain.031_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.690196 0.500000 0.500000 0.258823 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.063
+
+submesh Terrain.063_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.532206 -3.500000 0.500000 0.212892 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.033
+
+submesh Terrain.033_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 0.271345 -0.500000 0.500000 0.614930 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.034
+
+submesh Terrain.034_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 0.263502 -0.500000 0.500000 0.607086 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.049
+
+submesh Terrain.049_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 0.729513 -2.500000 0.500000 0.094016 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.037
+
+submesh Terrain.037_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 1.488239 -0.500000 0.500000 0.354899 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.013
+
+submesh Terrain.013_0
+
+displace 0.500000 4.000000
+
+aabb 0.500000 -0.243137 2.500000 0.500000 0.282353 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.025
+
+submesh Terrain.025_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 -0.414055 0.500000 0.500000 0.174181 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.043
+
+submesh Terrain.043_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 0.764353 -1.500000 0.500000 0.211646 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.048
+
+submesh Terrain.048_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.389382 -1.500000 0.500000 0.041990 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.006
+
+submesh Terrain.006_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 -0.313725 3.500000 0.500000 0.258824 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.038
+
+submesh Terrain.038_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 1.360194 -0.500000 0.500000 0.482944 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.016
+
+submesh Terrain.016_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.086275 2.500000 0.500000 0.188235 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.039
+
+submesh Terrain.039_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.704873 -0.500000 0.500000 0.289187 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.051
+
+submesh Terrain.051_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 0.893499 -2.500000 0.500000 0.117029 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.054
+
+submesh Terrain.054_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 1.064264 -2.500000 0.500000 0.319166 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.009
+
+submesh Terrain.009_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 0.528868 2.500000 0.500000 0.780936 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.032
+
+submesh Terrain.032_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.314881 0.500000 0.500000 0.132179 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.047
+
+submesh Terrain.047_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.654312 -1.500000 0.500000 0.222939 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.046
+
+submesh Terrain.046_0
+
+displace 0.500000 4.000000
+
+aabb 1.500000 1.121569 -1.500000 0.500000 0.360785 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.064
+
+submesh Terrain.064_0
+
+displace 0.500000 4.000000
+
+aabb 3.500000 0.331917 -3.500000 0.500000 0.068084 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.050
+
+submesh Terrain.050_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 0.776470 -2.500000 0.500000 0.062745 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.041
+
+submesh Terrain.041_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 0.826611 -1.500000 0.500000 0.083992 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.055
+
+submesh Terrain.055_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.635294 -2.500000 0.500000 0.250980 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.060
+
+submesh Terrain.060_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 1.118495 -3.500000 0.500000 0.213374 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.035
+
+submesh Terrain.035_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 0.277275 -0.500000 0.500000 0.436451 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.058
+
+submesh Terrain.058_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 0.739166 -3.500000 0.500000 0.041127 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.044
+
+submesh Terrain.044_0
+
+displace 0.500000 4.000000
+
+aabb -0.500000 0.917647 -1.500000 0.500000 0.313725 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.015
+
+submesh Terrain.015_0
+
+displace 0.500000 4.000000
+
+aabb 2.500000 0.223680 2.500000 0.500000 0.325640 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.001
+
+submesh Terrain.001_0
+
+displace 0.500000 4.000000
+
+aabb -3.500000 1.311911 3.500000 0.500000 0.139071 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.027
+
+submesh Terrain.027_0
+
+displace 0.500000 4.000000
+
+aabb -1.500000 -0.169217 0.500000 0.500000 0.271178 0.500000
+
+#
+# Mesh.
+#
+
+name Terrain.018
+
+submesh Terrain.018_0
+
+displace 0.500000 4.000000
+
+aabb -2.500000 -0.368627 1.500000 0.500000 0.141177 0.500000
+

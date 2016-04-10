@@ -1,0 +1,57 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library cartoon_tree_with_plane_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Leaf_Mesh
+
+submesh Leaf_Mesh_0
+
+aabb 0.172632 -0.111398 -0.206359 1.878421 1.090550 1.969871
+
+#
+# Mesh.
+#
+
+name Plane_Mesh
+
+submesh Plane_Mesh_0
+submesh Plane_Mesh_1
+
+aabb -0.000047 -0.012219 0.026360 0.379739 0.303351 0.558192
+
+#
+# Mesh.
+#
+
+name Trunk_Mesh
+
+submesh Trunk_Mesh_0
+
+aabb -0.206784 1.332592 -0.099999 0.580874 1.326762 0.602282
+
+#
+# Mesh.
+#
+
+name Basement_Mesh
+
+submesh Basement_Mesh_0
+
+aabb -0.000000 -0.100000 0.000000 2.000000 0.100000 2.000000
+
+#
+# Mesh.
+#
+
+name Plane_Propeller_Mesh
+
+submesh Plane_Propeller_Mesh_0
+
+aabb -0.000099 0.085299 0.000074 0.332286 0.293424 0.021832
+

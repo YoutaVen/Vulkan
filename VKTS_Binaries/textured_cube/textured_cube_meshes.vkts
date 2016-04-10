@@ -1,0 +1,16 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library textured_cube_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Cube_Mesh
+
+submesh Cube_Mesh_0
+
+aabb -0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+

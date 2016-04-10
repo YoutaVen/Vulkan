@@ -1,0 +1,964 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library astro_boy_meshes.vkts
+
+animation_library astro_boy_animations.vkts
+
+#
+# Object.
+#
+
+name Astro_Boy
+
+# Node.
+
+node Astro_Boy -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 0.200000 0.200000 0.200000
+
+joints 63
+
+# Node.
+
+node root Astro_Boy
+
+translate -0.000003 -0.367280 -0.000000
+rotate 0.000000 -4.567510 0.000076
+scale 1.000000 1.000000 1.000000
+
+jointIndex 0
+
+bind_translate 0.000000 7.208961 -0.110990
+bind_rotate 90.000105 84.685466 90.000105
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_root
+
+# Node.
+
+node spine01 root
+
+translate -0.000004 0.000006 0.000000
+rotate 0.000005 -8.743700 -0.000352
+scale 1.000000 1.000000 1.000000
+
+jointIndex 1
+
+bind_translate -0.000006 1.170036 -0.000000
+bind_rotate -0.000001 179.999991 -22.069355
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_spine01
+
+# Node.
+
+node spine02 spine01
+
+translate 0.000005 0.000001 0.000000
+rotate 5.204391 -3.353880 -0.000023
+scale 1.000000 1.000000 1.000000
+
+jointIndex 2
+
+bind_translate -0.000005 1.228599 0.000000
+bind_rotate -0.000000 0.000002 -5.729554
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_spine02
+
+# Node.
+
+node neck01 spine02
+
+translate -0.000004 0.000033 0.000000
+rotate -7.099830 -2.462050 -0.000025
+scale 1.000000 1.000000 1.000000
+
+jointIndex 3
+
+bind_translate -0.000007 2.269048 0.000000
+bind_rotate -0.000001 0.000001 -19.046676
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_neck01
+
+# Node.
+
+node head neck01
+
+translate -0.000000 -0.000039 -0.000000
+rotate -10.758899 4.385810 -1.615879
+scale 1.000000 1.000000 1.000000
+
+jointIndex 4
+
+bind_translate 0.000000 0.751999 0.000000
+bind_rotate -0.000000 0.000000 0.000003
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_head
+
+# Node.
+
+node headEnd head
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 5
+
+bind_translate 0.000000 2.517091 0.000000
+bind_rotate -0.000005 89.999996 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_clavicle spine02
+
+translate 0.000006 0.000004 0.000006
+rotate 0.005289 0.000023 0.000046
+scale 1.000000 1.000000 1.000000
+
+jointIndex 6
+
+bind_translate -0.074769 1.531196 -0.785251
+bind_rotate -90.016771 0.525523 -11.025389
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_clavicle
+
+# Node.
+
+node L_shoulder L_clavicle
+
+translate -0.000009 -0.000002 -0.000024
+rotate -45.084907 -9.261169 -29.041773
+scale 1.000000 1.000000 1.000000
+
+jointIndex 7
+
+bind_translate 0.000009 0.228198 0.000023
+bind_rotate 0.016756 -0.000429 1.095823
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_shoulder
+
+# Node.
+
+node L_bicep L_shoulder
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 8
+
+bind_translate 0.000000 1.417560 0.000000
+bind_rotate -0.000000 0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_elbow L_bicep
+
+translate 0.000008 0.000004 0.000026
+rotate -0.000135 -0.001138 -83.194149
+scale 1.000000 1.000000 1.000000
+
+jointIndex 9
+
+bind_translate -0.000008 1.253576 -0.000026
+bind_rotate 0.002275 0.000030 -3.008039
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_elbow
+
+# Node.
+
+node L_forearm L_elbow
+
+translate -0.000000 -0.000010 0.000001
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 10
+
+bind_translate 0.000000 1.200861 -0.000026
+bind_rotate 0.000020 0.000000 -0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_wrist L_forearm
+
+translate -0.000000 0.000000 0.000044
+rotate 0.000000 -0.000000 -14.350299
+scale 1.000000 1.000000 1.000000
+
+jointIndex 11
+
+bind_translate -0.000000 1.095170 -0.000020
+bind_rotate -0.000055 -0.000008 0.000007
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_wrist
+
+# Node.
+
+node L_pinkyOrient L_wrist
+
+translate -0.000000 -0.000000 0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 12
+
+bind_translate -0.021093 0.088727 -0.034647
+bind_rotate -0.001107 0.000005 1.386714
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_pinky_01 L_pinkyOrient
+
+translate -0.000008 -0.000025 0.000004
+rotate -46.832527 -0.000175 0.000033
+scale 1.000000 1.000000 1.000000
+
+jointIndex 13
+
+bind_translate -0.361360 1.395647 -0.113641
+bind_rotate 0.361652 0.000178 9.771943
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_pinky_02 L_pinky_01
+
+translate -0.000008 0.000005 -0.000034
+rotate -101.055784 -0.000040 0.000013
+scale 0.999999 1.000000 1.000000
+
+jointIndex 14
+
+bind_translate 0.000009 0.537584 0.000033
+bind_rotate -0.362608 -0.010679 -1.691381
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_pinkyEnd L_pinky_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 15
+
+bind_translate 0.000000 0.728443 0.000001
+bind_rotate 0.000000 89.999996 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_middleOrient L_wrist
+
+translate -0.000000 -0.000000 0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 16
+
+bind_translate -0.021093 0.088727 -0.034647
+bind_rotate -0.001123 0.000006 1.386713
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_middle_01 L_middleOrient
+
+translate -0.000008 -0.000023 0.000003
+rotate -46.832271 -0.000028 0.000026
+scale 1.000000 1.000000 1.000000
+
+jointIndex 17
+
+bind_translate 0.048221 1.466874 -0.000002
+bind_rotate -0.001117 0.000026 -0.000025
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_middle_02 L_middle_01
+
+translate 0.000000 0.000000 0.000000
+rotate -101.056002 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 18
+
+bind_translate 0.000000 0.569851 -0.000000
+bind_rotate -0.000143 -0.000004 0.000004
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_middleEnd L_middle_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 19
+
+bind_translate -0.000000 0.765730 -0.000000
+bind_rotate -86.912422 -90.000146 86.912409
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_indexOrient L_wrist
+
+translate -0.000000 -0.000000 0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 20
+
+bind_translate -0.021093 0.088727 -0.034647
+bind_rotate -0.001118 0.000006 1.386713
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_index_01 L_indexOrient
+
+translate -0.000001 -0.000019 -0.000037
+rotate -46.832312 0.000148 0.000014
+scale 1.000000 1.000000 1.000000
+
+jointIndex 21
+
+bind_translate 0.444438 1.391191 0.000037
+bind_rotate -3.298373 -0.000149 -8.441492
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_index_02 L_index_01
+
+translate -0.000006 0.000001 0.000011
+rotate -113.771902 0.000010 0.000042
+scale 1.000000 1.000000 1.000000
+
+jointIndex 22
+
+bind_translate 0.000005 0.571877 -0.000011
+bind_rotate 0.238594 -0.045316 0.786445
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_indexEnd L_index_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 23
+
+bind_translate -0.000000 0.715153 0.000001
+bind_rotate -0.000001 -73.077403 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_thumbOrient L_wrist
+
+translate -0.000000 -0.000000 0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 24
+
+bind_translate -0.021093 0.088727 -0.034647
+bind_rotate -0.001098 0.000006 1.386713
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_thumb_01 L_thumbOrient
+
+translate 0.000001 -0.000002 -0.000044
+rotate 0.001026 0.000457 12.667553
+scale 1.000000 1.000000 1.000000
+
+jointIndex 25
+
+bind_translate 0.512076 0.614647 -0.144058
+bind_rotate -28.472009 -0.000780 -42.356260
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_thumb_02 L_thumb_01
+
+translate -0.000001 -0.000004 0.000063
+rotate -0.000080 -0.000031 -0.000044
+scale 0.999999 1.000000 1.000000
+
+jointIndex 26
+
+bind_translate 0.000010 0.318419 -0.000061
+bind_rotate -12.451492 -7.436530 13.927213
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node L_thumbEnd L_thumb_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 27
+
+bind_translate 0.000000 0.584035 0.000001
+bind_rotate -0.000068 -10.450671 0.000007
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_clavicle spine02
+
+translate -0.000007 -0.000004 0.000045
+rotate 0.005286 -0.000378 0.000046
+scale 1.000000 1.000000 1.000000
+
+jointIndex 28
+
+bind_translate -0.074769 1.531196 0.785251
+bind_rotate -90.016750 0.525542 168.974632
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_clavicle
+
+# Node.
+
+node R_shoulder R_clavicle
+
+translate 0.000009 0.000003 -0.000021
+rotate -43.003274 59.951746 29.034636
+scale 1.000000 1.000000 1.000000
+
+jointIndex 29
+
+bind_translate -0.000009 -0.228198 -0.000022
+bind_rotate 0.016756 -0.000412 1.095823
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_shoulder
+
+# Node.
+
+node R_bicep R_shoulder
+
+translate -0.000000 -0.000000 -0.000000
+rotate 0.000000 -0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 30
+
+bind_translate 0.000000 -1.417560 0.000001
+bind_rotate 0.000000 -0.000000 -0.000001
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_elbow R_bicep
+
+translate -0.000008 0.000006 -0.000026
+rotate 0.000447 -0.001055 -112.951057
+scale 1.000000 1.000000 1.000000
+
+jointIndex 31
+
+bind_translate 0.000008 -1.253585 0.000026
+bind_rotate 0.002276 0.000033 -3.008038
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_elbow
+
+# Node.
+
+node R_forearm R_elbow
+
+translate 0.000000 0.000000 -0.000001
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 32
+
+bind_translate -0.000000 -1.200852 0.000026
+bind_rotate 0.000020 -0.000006 -0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_wrist R_forearm
+
+translate -0.000001 -0.000000 0.000001
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 33
+
+bind_translate 0.000001 -1.095169 0.000021
+bind_rotate -0.000054 -0.000002 0.000002
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_wrist
+
+# Node.
+
+node R_pinkyOrient R_wrist
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 34
+
+bind_translate 0.021092 -0.088725 0.034602
+bind_rotate -0.001107 0.000002 1.386718
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_pinky_01 R_pinkyOrient
+
+translate 0.000013 0.000024 -0.000088
+rotate -67.548310 -0.000175 0.000014
+scale 1.000000 1.000000 1.000000
+
+jointIndex 35
+
+bind_translate 0.361351 -1.395645 0.113686
+bind_rotate 0.361649 0.000177 9.771767
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_pinky_02 R_pinky_01
+
+translate 0.000003 -0.000002 0.000034
+rotate -77.870399 -0.000039 0.000044
+scale 0.999999 1.000000 1.000000
+
+jointIndex 36
+
+bind_translate -0.000002 -0.537587 -0.000032
+bind_rotate -0.362606 -0.010662 -1.691216
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_pinkyEnd R_pinky_02
+
+translate -0.000000 0.000000 -0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 37
+
+bind_translate 0.000006 -0.728444 0.000001
+bind_rotate -0.000001 89.999996 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_middleOrient R_wrist
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 38
+
+bind_translate 0.021092 -0.088725 0.034602
+bind_rotate -0.001124 -0.000009 1.386718
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_middle_01 R_middleOrient
+
+translate 0.000008 0.000026 -0.000050
+rotate -67.548078 -0.000028 0.000026
+scale 1.000000 1.000000 1.000000
+
+jointIndex 39
+
+bind_translate -0.048221 -1.466876 0.000048
+bind_rotate -0.001117 0.000038 -0.000025
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_middle_02 R_middle_01
+
+translate -0.000000 0.000001 -0.000002
+rotate -77.870611 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 40
+
+bind_translate 0.000000 -0.569850 0.000001
+bind_rotate 0.000000 0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_middleEnd R_middle_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 41
+
+bind_translate 0.000000 -0.765730 -0.000000
+bind_rotate 0.000009 -89.999996 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_indexOrient R_wrist
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 42
+
+bind_translate 0.021092 -0.088725 0.034602
+bind_rotate -0.001119 -0.000001 1.386718
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_index_01 R_indexOrient
+
+translate -0.000001 0.000031 -0.000064
+rotate -67.548016 0.000141 0.000006
+scale 1.000000 1.000000 1.000000
+
+jointIndex 43
+
+bind_translate -0.444438 -1.391203 0.000061
+bind_rotate 3.296039 -0.000146 -8.441328
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_index_02 R_index_01
+
+translate 0.000009 -0.000010 0.000047
+rotate -77.870502 0.000019 0.000036
+scale 1.000000 1.000000 1.000001
+
+jointIndex 44
+
+bind_translate -0.000009 -0.568084 0.065634
+bind_rotate -6.355173 0.045282 0.786284
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_indexEnd R_index_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 45
+
+bind_translate 0.000000 -0.715159 -0.000054
+bind_rotate -0.000001 -73.077403 -0.000003
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_thumbOrient R_wrist
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 46
+
+bind_translate 0.021092 -0.088725 0.034602
+bind_rotate -0.001098 -0.000008 1.386717
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_thumb_01 R_thumbOrient
+
+translate 0.000000 -0.000012 -0.000027
+rotate 0.000886 19.356561 -0.000032
+scale 1.000000 1.000000 1.000000
+
+jointIndex 47
+
+bind_translate -0.512064 -0.614637 0.144128
+bind_rotate 28.470537 -0.000729 -42.355683
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_thumb_02 R_thumb_01
+
+translate 0.000008 0.000010 -0.000033
+rotate -0.000069 -0.000036 -0.000020
+scale 1.000000 1.000000 1.000000
+
+jointIndex 48
+
+bind_translate -0.000012 -0.173670 0.266903
+bind_rotate -67.575050 7.436368 13.926658
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_thumbEnd R_thumb_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 49
+
+bind_translate -0.000002 -0.584023 -0.000008
+bind_rotate 0.000001 -10.450689 -0.000004
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node hips root
+
+translate 0.000000 -0.000001 -0.000000
+rotate -0.000000 5.759008 -0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 50
+
+bind_translate 0.208883 -0.325700 0.000000
+bind_rotate 0.000001 -89.999996 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_hips
+
+# Node.
+
+node L_hip hips
+
+translate -0.000006 -0.000008 0.000000
+rotate -0.052201 1.109659 15.735111
+scale 1.000000 1.000001 1.000000
+
+jointIndex 51
+
+bind_translate 0.869767 -0.165445 0.287862
+bind_rotate 89.999511 -82.009610 90.000549
+bind_scale 1.000000 1.000000 1.000001
+
+animation animation_L_hip
+
+# Node.
+
+node L_knee_01 L_hip
+
+translate -0.000002 0.000002 -0.000000
+rotate -0.000001 0.000005 -11.859765
+scale 0.999999 0.999999 1.000000
+
+jointIndex 52
+
+bind_translate -0.000001 2.546398 0.000000
+bind_rotate 0.000001 179.999991 11.652942
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_knee_01
+
+# Node.
+
+node L_knee_02 L_knee_01
+
+translate -0.000002 0.000001 -0.000000
+rotate -0.000000 0.000000 -9.870606
+scale 1.000000 1.000000 1.000000
+
+jointIndex 53
+
+bind_translate 0.000002 0.499023 0.000000
+bind_rotate -0.000000 0.000006 -0.188628
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_knee_02
+
+# Node.
+
+node L_ankle L_knee_02
+
+translate 0.000000 0.000000 0.000000
+rotate 0.122716 0.187736 -1.320012
+scale 1.000000 1.000000 1.000000
+
+jointIndex 54
+
+bind_translate 0.000000 2.918915 -0.000000
+bind_rotate -0.000002 179.999991 70.635303
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_ankle
+
+# Node.
+
+node L_toeBall L_ankle
+
+translate 0.000001 0.000000 0.000000
+rotate -0.000001 0.000000 -36.539791
+scale 1.000000 1.000000 1.000000
+
+jointIndex 55
+
+bind_translate -0.000001 1.594370 0.000000
+bind_rotate 0.000001 0.000004 -29.291297
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_L_toeBall
+
+# Node.
+
+node L_toeEnd L_toeBall
+
+translate 0.000000 0.000000 0.000000
+rotate -0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 56
+
+bind_translate -0.000000 1.644880 0.000000
+bind_rotate -89.999600 -89.999996 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node R_hip hips
+
+translate 0.000004 -0.000002 0.000006
+rotate 1.678770 -19.297697 -32.498467
+scale 1.000000 1.000000 1.000000
+
+jointIndex 57
+
+bind_translate -0.869773 -0.165434 0.287859
+bind_rotate 82.878362 97.982199 82.537365
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_hip
+
+# Node.
+
+node R_knee_01 R_hip
+
+translate -0.000000 -0.000002 0.000038
+rotate -0.000717 -0.000194 -1.737488
+scale 1.000001 1.000000 1.000053
+
+jointIndex 58
+
+bind_translate -0.000000 -2.546400 0.000038
+bind_rotate 0.000726 -179.999827 12.386979
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_knee_01
+
+# Node.
+
+node R_knee_02 R_knee_01
+
+translate 0.000000 0.000002 -0.000001
+rotate -0.000044 -0.000005 -1.451330
+scale 1.000000 1.000000 0.999947
+
+jointIndex 59
+
+bind_translate -0.000000 -0.499028 0.000001
+bind_rotate 0.000063 -0.000009 0.756982
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_knee_02
+
+# Node.
+
+node R_ankle R_knee_02
+
+translate 0.000000 0.000000 0.000000
+rotate 1.903368 3.723701 0.521249
+scale 1.000000 0.999999 1.000000
+
+jointIndex 60
+
+bind_translate 0.000000 -2.918918 0.000000
+bind_rotate -0.103962 179.778652 69.738806
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_ankle
+
+# Node.
+
+node R_toeBall R_ankle
+
+translate 0.000001 0.000001 -0.000002
+rotate 0.000018 -0.000037 -0.000300
+scale 1.000000 1.000000 1.000000
+
+jointIndex 61
+
+bind_translate -0.000001 -1.594371 0.000001
+bind_rotate -0.000015 0.000041 -29.291106
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_R_toeBall
+
+# Node.
+
+node R_toeEnd R_toeBall
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 62
+
+bind_translate 0.000000 -1.644880 -0.000000
+bind_rotate 0.045790 -89.997865 -90.000583
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Astro_Boy_Base Astro_Boy
+
+translate 0.000000 -0.000000 0.000000
+rotate 90.000009 0.000000 -0.000000
+scale 5.000000 5.000000 5.000000
+
+mesh Astro_Boy_Mesh
+

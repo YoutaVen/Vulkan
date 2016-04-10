@@ -1,0 +1,12 @@
+#
+# VulKan ToolS images.
+#
+
+#
+# Image.
+#
+
+name crate_image
+
+image_data crate.tga
+

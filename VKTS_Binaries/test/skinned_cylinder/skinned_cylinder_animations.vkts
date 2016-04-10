@@ -1,0 +1,32 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library skinned_cylinder_channels.vkts
+
+#
+# Animation.
+#
+
+name animation_Bone_Three
+
+start 0.000000
+stop 2.000000
+
+# Rotate.
+
+channel channel_ROTATE_X_Bone_Three
+
+#
+# Animation.
+#
+
+name animation_Bone_Four
+
+start 0.000000
+stop 2.000000
+
+# Rotate.
+
+channel channel_ROTATE_X_Bone_Four
+

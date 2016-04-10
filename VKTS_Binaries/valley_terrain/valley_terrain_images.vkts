@@ -1,0 +1,20 @@
+#
+# VulKan ToolS images.
+#
+
+#
+# Image.
+#
+
+name valley_displacement_image
+
+image_data valley_displacement.tga
+
+#
+# Image.
+#
+
+name valley_normal_image
+
+image_data valley_normal.tga
+

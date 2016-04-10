@@ -1,0 +1,40 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library shared_mesh_material_meshes.vkts
+
+animation_library shared_mesh_material_animations.vkts
+
+#
+# Object.
+#
+
+name Cube_Right
+
+# Node.
+
+node Cube_Right -
+
+translate 2.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube
+
+#
+# Object.
+#
+
+name Cube_Left
+
+# Node.
+
+node Cube_Left -
+
+translate -2.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube
+

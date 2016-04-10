@@ -1,0 +1,1032 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library valley_terrain_meshes.vkts
+
+animation_library valley_terrain_animations.vkts
+
+#
+# Object.
+#
+
+name Terrain.064
+
+# Node.
+
+node Terrain.064 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.064
+
+#
+# Object.
+#
+
+name Terrain.063
+
+# Node.
+
+node Terrain.063 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.063
+
+#
+# Object.
+#
+
+name Terrain.062
+
+# Node.
+
+node Terrain.062 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.062
+
+#
+# Object.
+#
+
+name Terrain.061
+
+# Node.
+
+node Terrain.061 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.061
+
+#
+# Object.
+#
+
+name Terrain.060
+
+# Node.
+
+node Terrain.060 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.060
+
+#
+# Object.
+#
+
+name Terrain.059
+
+# Node.
+
+node Terrain.059 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.059
+
+#
+# Object.
+#
+
+name Terrain.058
+
+# Node.
+
+node Terrain.058 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.058
+
+#
+# Object.
+#
+
+name Terrain.057
+
+# Node.
+
+node Terrain.057 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.057
+
+#
+# Object.
+#
+
+name Terrain.056
+
+# Node.
+
+node Terrain.056 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.056
+
+#
+# Object.
+#
+
+name Terrain.055
+
+# Node.
+
+node Terrain.055 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.055
+
+#
+# Object.
+#
+
+name Terrain.054
+
+# Node.
+
+node Terrain.054 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.054
+
+#
+# Object.
+#
+
+name Terrain.053
+
+# Node.
+
+node Terrain.053 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.053
+
+#
+# Object.
+#
+
+name Terrain.052
+
+# Node.
+
+node Terrain.052 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.052
+
+#
+# Object.
+#
+
+name Terrain.051
+
+# Node.
+
+node Terrain.051 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.051
+
+#
+# Object.
+#
+
+name Terrain.050
+
+# Node.
+
+node Terrain.050 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.050
+
+#
+# Object.
+#
+
+name Terrain.049
+
+# Node.
+
+node Terrain.049 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.049
+
+#
+# Object.
+#
+
+name Terrain.048
+
+# Node.
+
+node Terrain.048 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.048
+
+#
+# Object.
+#
+
+name Terrain.047
+
+# Node.
+
+node Terrain.047 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.047
+
+#
+# Object.
+#
+
+name Terrain.046
+
+# Node.
+
+node Terrain.046 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.046
+
+#
+# Object.
+#
+
+name Terrain.045
+
+# Node.
+
+node Terrain.045 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.045
+
+#
+# Object.
+#
+
+name Terrain.044
+
+# Node.
+
+node Terrain.044 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.044
+
+#
+# Object.
+#
+
+name Terrain.043
+
+# Node.
+
+node Terrain.043 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.043
+
+#
+# Object.
+#
+
+name Terrain.042
+
+# Node.
+
+node Terrain.042 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.042
+
+#
+# Object.
+#
+
+name Terrain.041
+
+# Node.
+
+node Terrain.041 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.041
+
+#
+# Object.
+#
+
+name Terrain.040
+
+# Node.
+
+node Terrain.040 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.040
+
+#
+# Object.
+#
+
+name Terrain.039
+
+# Node.
+
+node Terrain.039 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.039
+
+#
+# Object.
+#
+
+name Terrain.038
+
+# Node.
+
+node Terrain.038 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.038
+
+#
+# Object.
+#
+
+name Terrain.037
+
+# Node.
+
+node Terrain.037 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.037
+
+#
+# Object.
+#
+
+name Terrain.036
+
+# Node.
+
+node Terrain.036 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.036
+
+#
+# Object.
+#
+
+name Terrain.035
+
+# Node.
+
+node Terrain.035 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.035
+
+#
+# Object.
+#
+
+name Terrain.034
+
+# Node.
+
+node Terrain.034 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.034
+
+#
+# Object.
+#
+
+name Terrain.033
+
+# Node.
+
+node Terrain.033 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.033
+
+#
+# Object.
+#
+
+name Terrain.032
+
+# Node.
+
+node Terrain.032 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.032
+
+#
+# Object.
+#
+
+name Terrain.031
+
+# Node.
+
+node Terrain.031 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.031
+
+#
+# Object.
+#
+
+name Terrain.030
+
+# Node.
+
+node Terrain.030 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.030
+
+#
+# Object.
+#
+
+name Terrain.029
+
+# Node.
+
+node Terrain.029 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.029
+
+#
+# Object.
+#
+
+name Terrain.028
+
+# Node.
+
+node Terrain.028 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.028
+
+#
+# Object.
+#
+
+name Terrain.027
+
+# Node.
+
+node Terrain.027 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.027
+
+#
+# Object.
+#
+
+name Terrain.026
+
+# Node.
+
+node Terrain.026 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.026
+
+#
+# Object.
+#
+
+name Terrain.025
+
+# Node.
+
+node Terrain.025 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.025
+
+#
+# Object.
+#
+
+name Terrain.024
+
+# Node.
+
+node Terrain.024 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.024
+
+#
+# Object.
+#
+
+name Terrain.023
+
+# Node.
+
+node Terrain.023 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.023
+
+#
+# Object.
+#
+
+name Terrain.022
+
+# Node.
+
+node Terrain.022 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.022
+
+#
+# Object.
+#
+
+name Terrain.021
+
+# Node.
+
+node Terrain.021 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.021
+
+#
+# Object.
+#
+
+name Terrain.020
+
+# Node.
+
+node Terrain.020 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.020
+
+#
+# Object.
+#
+
+name Terrain.019
+
+# Node.
+
+node Terrain.019 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.019
+
+#
+# Object.
+#
+
+name Terrain.018
+
+# Node.
+
+node Terrain.018 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.018
+
+#
+# Object.
+#
+
+name Terrain.017
+
+# Node.
+
+node Terrain.017 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.017
+
+#
+# Object.
+#
+
+name Terrain.016
+
+# Node.
+
+node Terrain.016 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.016
+
+#
+# Object.
+#
+
+name Terrain.015
+
+# Node.
+
+node Terrain.015 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.015
+
+#
+# Object.
+#
+
+name Terrain.014
+
+# Node.
+
+node Terrain.014 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.014
+
+#
+# Object.
+#
+
+name Terrain.013
+
+# Node.
+
+node Terrain.013 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.013
+
+#
+# Object.
+#
+
+name Terrain.012
+
+# Node.
+
+node Terrain.012 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.012
+
+#
+# Object.
+#
+
+name Terrain.011
+
+# Node.
+
+node Terrain.011 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.011
+
+#
+# Object.
+#
+
+name Terrain.010
+
+# Node.
+
+node Terrain.010 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.010
+
+#
+# Object.
+#
+
+name Terrain.009
+
+# Node.
+
+node Terrain.009 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.009
+
+#
+# Object.
+#
+
+name Terrain.008
+
+# Node.
+
+node Terrain.008 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.008
+
+#
+# Object.
+#
+
+name Terrain.007
+
+# Node.
+
+node Terrain.007 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.007
+
+#
+# Object.
+#
+
+name Terrain.006
+
+# Node.
+
+node Terrain.006 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.006
+
+#
+# Object.
+#
+
+name Terrain.005
+
+# Node.
+
+node Terrain.005 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.005
+
+#
+# Object.
+#
+
+name Terrain.004
+
+# Node.
+
+node Terrain.004 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.004
+
+#
+# Object.
+#
+
+name Terrain.003
+
+# Node.
+
+node Terrain.003 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.003
+
+#
+# Object.
+#
+
+name Terrain.002
+
+# Node.
+
+node Terrain.002 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.002
+
+#
+# Object.
+#
+
+name Terrain.001
+
+# Node.
+
+node Terrain.001 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Terrain.001
+

@@ -1,0 +1,30 @@
+#
+# VulKan ToolS channels.
+#
+
+#
+# Channel.
+#
+
+name channel_ROTATE_X_Bone_Three
+
+target_transform ROTATE
+target_element X
+
+keyframe 0.000000 30.000001 BEZIER -0.390412 30.000001 0.390412 30.000001
+keyframe 1.000000 0.000000 BEZIER 0.609588 0.000000 1.390412 0.000000
+keyframe 2.000000 30.000001 BEZIER 1.609588 30.000001 2.390411 30.000001
+
+#
+# Channel.
+#
+
+name channel_ROTATE_X_Bone_Four
+
+target_transform ROTATE
+target_element X
+
+keyframe 0.000000 15.000000 BEZIER -0.390412 15.000000 0.390412 15.000000
+keyframe 1.000000 0.000000 BEZIER 0.609588 0.000000 1.390412 0.000000
+keyframe 2.000000 15.000000 BEZIER 1.609588 15.000000 2.390411 15.000000
+

@@ -1,0 +1,28 @@
+#
+# VulKan ToolS images.
+#
+
+#
+# Image.
+#
+
+name plane_image
+
+image_data plane.tga
+
+#
+# Image.
+#
+
+name wood_image
+
+image_data wood.tga
+
+#
+# Image.
+#
+
+name leaf_image
+
+image_data leaf.tga
+

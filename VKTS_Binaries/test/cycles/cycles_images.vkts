@@ -1,0 +1,12 @@
+#
+# VulKan ToolS images.
+#
+
+#
+# Image.
+#
+
+name desert_image
+
+image_data desert.tga
+

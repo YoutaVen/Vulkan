@@ -1,0 +1,159 @@
+#
+# VulKan ToolS textures.
+#
+
+image_library transport_shuttle_images.vkts
+
+#
+# Texture.
+#
+
+name Moon_texture
+
+mipmap true
+image moon_image
+
+#
+# Texture.
+#
+
+name Outside_Col_texture
+
+mipmap true
+image Outside_Col_image
+
+#
+# Texture.
+#
+
+name Rest_Col_texture
+
+mipmap true
+image Rest_Col_image
+
+#
+# Texture.
+#
+
+name Hover_Col_texture
+
+mipmap true
+image Hover_Col_image
+
+#
+# Texture.
+#
+
+name Outside_Nor_texture
+
+mipmap true
+image Outside_Nor_image
+
+#
+# Texture.
+#
+
+name Legs_Nor_texture
+
+mipmap true
+image Legs_Nor_image
+
+#
+# Texture.
+#
+
+name Booster_Col_texture
+
+mipmap true
+image Booster_Col_image
+
+#
+# Texture.
+#
+
+name Inside_Nor_texture
+
+mipmap true
+image Inside_Nor_image
+
+#
+# Texture.
+#
+
+name Rest_Nor_texture
+
+mipmap true
+image Rest_Nor_image
+
+#
+# Texture.
+#
+
+name Seats_Col_texture
+
+mipmap true
+image Seats_Col_image
+
+#
+# Texture.
+#
+
+name Legs_Col_texture
+
+mipmap true
+image Legs_Col_image
+
+#
+# Texture.
+#
+
+name Wire_Nor_texture
+
+mipmap true
+image Wire_Nor_image
+
+#
+# Texture.
+#
+
+name Wire_Col_texture
+
+mipmap true
+image Wire_Col_image
+
+#
+# Texture.
+#
+
+name Seats_Nor_texture
+
+mipmap true
+image Seats_Nor_image
+
+#
+# Texture.
+#
+
+name Hover_Nor_texture
+
+mipmap true
+image Hover_Nor_image
+
+#
+# Texture.
+#
+
+name Booster_Nor_texture
+
+mipmap true
+image Booster_Nor_image
+
+#
+# Texture.
+#
+
+name Inside_Col_texture
+
+mipmap true
+image Inside_Col_image
+

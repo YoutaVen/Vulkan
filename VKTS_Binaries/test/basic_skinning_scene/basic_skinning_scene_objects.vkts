@@ -1,0 +1,118 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library basic_skinning_scene_meshes.vkts
+
+animation_library basic_skinning_scene_animations.vkts
+
+#
+# Object.
+#
+
+name Armature
+
+# Node.
+
+node Armature -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+joints 6
+
+# Node.
+
+node Bone_Root Armature
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 25.000002 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 0
+
+bind_translate 0.000000 0.000000 0.000000
+bind_rotate 0.000000 -0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Middle Bone_Root
+
+translate 0.000000 0.500000 0.000000
+rotate -10.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 1
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 -0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Right Bone_Middle
+
+translate 0.000000 0.000000 0.000000
+rotate -0.000001 -0.000000 -35.000003
+scale 1.000000 1.000000 1.000000
+
+jointIndex 2
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 -45.000001 -90.000009
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_right_End Bone_Right
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 0.000000 -45.000001
+scale 1.000000 1.000000 1.000000
+
+jointIndex 3
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 -45.000001 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Left Bone_Middle
+
+translate 0.000000 0.000000 0.000000
+rotate -0.000001 0.000000 35.000003
+scale 1.000000 1.000000 1.000000
+
+jointIndex 4
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 45.000001 90.000009
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Left_End Bone_Left
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 45.000001
+scale 1.000000 1.000000 1.000000
+
+jointIndex 5
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 45.000001 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node T-Bone Armature
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh T-Bone
+

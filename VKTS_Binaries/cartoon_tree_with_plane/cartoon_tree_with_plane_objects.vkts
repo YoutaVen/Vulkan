@@ -1,0 +1,96 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library cartoon_tree_with_plane_meshes.vkts
+
+animation_library cartoon_tree_with_plane_animations.vkts
+
+#
+# Object.
+#
+
+name Basement_Node
+
+# Node.
+
+node Basement_Node -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Basement_Mesh
+
+#
+# Object.
+#
+
+name Orbit_Node
+
+# Node.
+
+node Orbit_Node -
+
+translate 0.000000 2.600000 -0.000000
+rotate 0.000000 0.000000 -30.000001
+scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Animation_Node Orbit_Node
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000001
+scale 1.000000 1.000000 1.000000
+
+animation animation_Animation_Node
+
+# Node.
+
+node Plane_Node Animation_Node
+
+translate 3.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000001
+scale 1.000000 1.000000 1.000000
+
+mesh Plane_Mesh
+
+# Node.
+
+node Plane_Propeller_Node Plane_Node
+
+translate -0.000000 -0.000000 0.500000
+rotate 0.000000 0.000000 29.999994
+scale 1.000000 1.000000 1.000000
+
+mesh Plane_Propeller_Mesh
+
+animation animation_Plane_Propeller_Node
+
+#
+# Object.
+#
+
+name Tree_Node
+
+# Node.
+
+node Tree_Node -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Trunk_Mesh
+
+# Node.
+
+node Leaf_Node Tree_Node
+
+translate 0.000000 2.600000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Leaf_Mesh
+

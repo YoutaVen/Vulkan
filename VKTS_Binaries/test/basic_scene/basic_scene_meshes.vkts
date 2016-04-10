@@ -1,0 +1,36 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library basic_scene_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Cube
+
+submesh Cube_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+
+#
+# Mesh.
+#
+
+name Cone
+
+submesh Cone_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+
+#
+# Mesh.
+#
+
+name Sphere
+
+submesh Sphere_0
+
+aabb 0.000000 0.000000 -0.000000 1.000000 1.000000 1.000000
+

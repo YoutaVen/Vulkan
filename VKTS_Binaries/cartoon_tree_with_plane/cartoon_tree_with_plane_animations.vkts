@@ -1,0 +1,32 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library cartoon_tree_with_plane_channels.vkts
+
+#
+# Animation.
+#
+
+name animation_Animation_Node
+
+start 0.000000
+stop 2.000000
+
+# Rotate.
+
+channel channel_ROTATE_Y_Animation_Node
+
+#
+# Animation.
+#
+
+name animation_Plane_Propeller_Node
+
+start 0.000000
+stop 2.000000
+
+# Rotate.
+
+channel channel_ROTATE_Z_Plane_Propeller_Node
+

@@ -1,0 +1,26 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library bezier_animation_meshes.vkts
+
+animation_library bezier_animation_animations.vkts
+
+#
+# Object.
+#
+
+name Cube
+
+# Node.
+
+node Cube -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube
+
+animation animation_Cube
+

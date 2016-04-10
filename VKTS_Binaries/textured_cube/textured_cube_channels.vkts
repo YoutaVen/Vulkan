@@ -1,0 +1,16 @@
+#
+# VulKan ToolS channels.
+#
+
+#
+# Channel.
+#
+
+name channel_ROTATE_Y_Cube
+
+target_transform ROTATE
+target_element Y
+
+keyframe 0.000000 0.000000 LINEAR
+keyframe 6.000000 360.000010 LINEAR
+

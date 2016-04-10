@@ -1,0 +1,6 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library basic_skinning_scene_channels.vkts
+

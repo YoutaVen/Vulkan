@@ -1,0 +1,136 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library transport_shuttle_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Moon
+
+submesh Moon_0
+
+aabb -0.000002 1.165946 0.000000 122.681984 6.823503 69.341995
+
+#
+# Mesh.
+#
+
+name Rest
+
+submesh Rest_0
+
+aabb 8.937377 0.545431 0.000005 2.363724 2.031406 3.533948
+
+#
+# Mesh.
+#
+
+name Legs
+
+submesh Legs_0
+
+aabb 6.190598 -1.691547 -0.000000 6.537126 0.582611 2.607248
+
+#
+# Mesh.
+#
+
+name Inside_Out
+
+submesh Inside_Out_0
+
+aabb 5.045413 0.137575 0.000000 5.045413 1.040690 2.295871
+
+#
+# Mesh.
+#
+
+name Inside
+
+submesh Inside_0
+
+aabb 5.166190 -0.158821 -0.006269 4.964950 1.286145 3.446490
+
+#
+# Mesh.
+#
+
+name Wire
+
+submesh Wire_0
+
+aabb 1.887251 0.650432 0.000000 1.778714 0.533013 1.805571
+
+#
+# Mesh.
+#
+
+name Booster
+
+submesh Booster_0
+
+aabb 11.259460 -0.028925 0.000000 0.855073 0.830975 1.959467
+
+#
+# Mesh.
+#
+
+name Outside
+
+submesh Outside_0
+
+aabb 6.000200 -0.177472 0.000000 6.324707 1.593832 2.332836
+
+#
+# Mesh.
+#
+
+name Hover_Outer
+
+submesh Hover_Outer_0
+
+aabb 5.981228 -1.315399 0.000000 5.108562 0.611714 2.378139
+
+#
+# Mesh.
+#
+
+name Seats
+
+submesh Seats_0
+
+aabb 5.588782 -0.298666 -0.004337 4.125382 0.603525 1.096906
+
+#
+# Mesh.
+#
+
+name Hover
+
+submesh Hover_10
+
+aabb 0.000001 -0.050323 0.011280 0.751370 0.058524 0.762649
+
+#
+# Mesh.
+#
+
+name Lights
+
+submesh Lights_0
+
+aabb 6.519023 1.114101 0.000000 2.056790 0.014147 0.117188
+
+#
+# Mesh.
+#
+
+name Glass
+
+submesh Glass_0
+
+aabb 4.531150 0.926227 0.000000 4.390042 1.063763 1.953732
+

@@ -1,0 +1,678 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library astro_boy_channels.vkts
+
+#
+# Animation.
+#
+
+name animation_root
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_root
+channel channel_TRANSLATE_Y_root
+channel channel_TRANSLATE_Z_root
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_root
+channel channel_QUATERNION_ROTATE_Y_root
+channel channel_QUATERNION_ROTATE_Z_root
+channel channel_QUATERNION_ROTATE_W_root
+
+# Scale.
+
+channel channel_SCALE_X_root
+channel channel_SCALE_Y_root
+channel channel_SCALE_Z_root
+
+#
+# Animation.
+#
+
+name animation_spine01
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_spine01
+channel channel_TRANSLATE_Y_spine01
+channel channel_TRANSLATE_Z_spine01
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_spine01
+channel channel_QUATERNION_ROTATE_Y_spine01
+channel channel_QUATERNION_ROTATE_Z_spine01
+channel channel_QUATERNION_ROTATE_W_spine01
+
+# Scale.
+
+channel channel_SCALE_X_spine01
+channel channel_SCALE_Y_spine01
+channel channel_SCALE_Z_spine01
+
+#
+# Animation.
+#
+
+name animation_spine02
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_spine02
+channel channel_TRANSLATE_Y_spine02
+channel channel_TRANSLATE_Z_spine02
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_spine02
+channel channel_QUATERNION_ROTATE_Y_spine02
+channel channel_QUATERNION_ROTATE_Z_spine02
+channel channel_QUATERNION_ROTATE_W_spine02
+
+# Scale.
+
+channel channel_SCALE_X_spine02
+channel channel_SCALE_Y_spine02
+channel channel_SCALE_Z_spine02
+
+#
+# Animation.
+#
+
+name animation_neck01
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_neck01
+channel channel_TRANSLATE_Y_neck01
+channel channel_TRANSLATE_Z_neck01
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_neck01
+channel channel_QUATERNION_ROTATE_Y_neck01
+channel channel_QUATERNION_ROTATE_Z_neck01
+channel channel_QUATERNION_ROTATE_W_neck01
+
+# Scale.
+
+channel channel_SCALE_X_neck01
+channel channel_SCALE_Y_neck01
+channel channel_SCALE_Z_neck01
+
+#
+# Animation.
+#
+
+name animation_head
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_head
+channel channel_TRANSLATE_Y_head
+channel channel_TRANSLATE_Z_head
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_head
+channel channel_QUATERNION_ROTATE_Y_head
+channel channel_QUATERNION_ROTATE_Z_head
+channel channel_QUATERNION_ROTATE_W_head
+
+# Scale.
+
+channel channel_SCALE_X_head
+channel channel_SCALE_Y_head
+channel channel_SCALE_Z_head
+
+#
+# Animation.
+#
+
+name animation_L_clavicle
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_clavicle
+channel channel_TRANSLATE_Y_L_clavicle
+channel channel_TRANSLATE_Z_L_clavicle
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_clavicle
+channel channel_QUATERNION_ROTATE_Y_L_clavicle
+channel channel_QUATERNION_ROTATE_Z_L_clavicle
+channel channel_QUATERNION_ROTATE_W_L_clavicle
+
+# Scale.
+
+channel channel_SCALE_X_L_clavicle
+channel channel_SCALE_Y_L_clavicle
+channel channel_SCALE_Z_L_clavicle
+
+#
+# Animation.
+#
+
+name animation_L_shoulder
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_shoulder
+channel channel_TRANSLATE_Y_L_shoulder
+channel channel_TRANSLATE_Z_L_shoulder
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_shoulder
+channel channel_QUATERNION_ROTATE_Y_L_shoulder
+channel channel_QUATERNION_ROTATE_Z_L_shoulder
+channel channel_QUATERNION_ROTATE_W_L_shoulder
+
+# Scale.
+
+channel channel_SCALE_X_L_shoulder
+channel channel_SCALE_Y_L_shoulder
+channel channel_SCALE_Z_L_shoulder
+
+#
+# Animation.
+#
+
+name animation_L_elbow
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_elbow
+channel channel_TRANSLATE_Y_L_elbow
+channel channel_TRANSLATE_Z_L_elbow
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_elbow
+channel channel_QUATERNION_ROTATE_Y_L_elbow
+channel channel_QUATERNION_ROTATE_Z_L_elbow
+channel channel_QUATERNION_ROTATE_W_L_elbow
+
+# Scale.
+
+channel channel_SCALE_X_L_elbow
+channel channel_SCALE_Y_L_elbow
+channel channel_SCALE_Z_L_elbow
+
+#
+# Animation.
+#
+
+name animation_L_wrist
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_wrist
+channel channel_TRANSLATE_Y_L_wrist
+channel channel_TRANSLATE_Z_L_wrist
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_wrist
+channel channel_QUATERNION_ROTATE_Y_L_wrist
+channel channel_QUATERNION_ROTATE_Z_L_wrist
+channel channel_QUATERNION_ROTATE_W_L_wrist
+
+# Scale.
+
+channel channel_SCALE_X_L_wrist
+channel channel_SCALE_Y_L_wrist
+channel channel_SCALE_Z_L_wrist
+
+#
+# Animation.
+#
+
+name animation_R_clavicle
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_clavicle
+channel channel_TRANSLATE_Y_R_clavicle
+channel channel_TRANSLATE_Z_R_clavicle
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_clavicle
+channel channel_QUATERNION_ROTATE_Y_R_clavicle
+channel channel_QUATERNION_ROTATE_Z_R_clavicle
+channel channel_QUATERNION_ROTATE_W_R_clavicle
+
+# Scale.
+
+channel channel_SCALE_X_R_clavicle
+channel channel_SCALE_Y_R_clavicle
+channel channel_SCALE_Z_R_clavicle
+
+#
+# Animation.
+#
+
+name animation_R_shoulder
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_shoulder
+channel channel_TRANSLATE_Y_R_shoulder
+channel channel_TRANSLATE_Z_R_shoulder
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_shoulder
+channel channel_QUATERNION_ROTATE_Y_R_shoulder
+channel channel_QUATERNION_ROTATE_Z_R_shoulder
+channel channel_QUATERNION_ROTATE_W_R_shoulder
+
+# Scale.
+
+channel channel_SCALE_X_R_shoulder
+channel channel_SCALE_Y_R_shoulder
+channel channel_SCALE_Z_R_shoulder
+
+#
+# Animation.
+#
+
+name animation_R_elbow
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_elbow
+channel channel_TRANSLATE_Y_R_elbow
+channel channel_TRANSLATE_Z_R_elbow
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_elbow
+channel channel_QUATERNION_ROTATE_Y_R_elbow
+channel channel_QUATERNION_ROTATE_Z_R_elbow
+channel channel_QUATERNION_ROTATE_W_R_elbow
+
+# Scale.
+
+channel channel_SCALE_X_R_elbow
+channel channel_SCALE_Y_R_elbow
+channel channel_SCALE_Z_R_elbow
+
+#
+# Animation.
+#
+
+name animation_R_wrist
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_wrist
+channel channel_TRANSLATE_Y_R_wrist
+channel channel_TRANSLATE_Z_R_wrist
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_wrist
+channel channel_QUATERNION_ROTATE_Y_R_wrist
+channel channel_QUATERNION_ROTATE_Z_R_wrist
+channel channel_QUATERNION_ROTATE_W_R_wrist
+
+# Scale.
+
+channel channel_SCALE_X_R_wrist
+channel channel_SCALE_Y_R_wrist
+channel channel_SCALE_Z_R_wrist
+
+#
+# Animation.
+#
+
+name animation_hips
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_hips
+channel channel_TRANSLATE_Y_hips
+channel channel_TRANSLATE_Z_hips
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_hips
+channel channel_QUATERNION_ROTATE_Y_hips
+channel channel_QUATERNION_ROTATE_Z_hips
+channel channel_QUATERNION_ROTATE_W_hips
+
+# Scale.
+
+channel channel_SCALE_X_hips
+channel channel_SCALE_Y_hips
+channel channel_SCALE_Z_hips
+
+#
+# Animation.
+#
+
+name animation_L_hip
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_hip
+channel channel_TRANSLATE_Y_L_hip
+channel channel_TRANSLATE_Z_L_hip
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_hip
+channel channel_QUATERNION_ROTATE_Y_L_hip
+channel channel_QUATERNION_ROTATE_Z_L_hip
+channel channel_QUATERNION_ROTATE_W_L_hip
+
+# Scale.
+
+channel channel_SCALE_X_L_hip
+channel channel_SCALE_Y_L_hip
+channel channel_SCALE_Z_L_hip
+
+#
+# Animation.
+#
+
+name animation_L_knee_01
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_knee_01
+channel channel_TRANSLATE_Y_L_knee_01
+channel channel_TRANSLATE_Z_L_knee_01
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_knee_01
+channel channel_QUATERNION_ROTATE_Y_L_knee_01
+channel channel_QUATERNION_ROTATE_Z_L_knee_01
+channel channel_QUATERNION_ROTATE_W_L_knee_01
+
+# Scale.
+
+channel channel_SCALE_X_L_knee_01
+channel channel_SCALE_Y_L_knee_01
+channel channel_SCALE_Z_L_knee_01
+
+#
+# Animation.
+#
+
+name animation_L_knee_02
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_knee_02
+channel channel_TRANSLATE_Y_L_knee_02
+channel channel_TRANSLATE_Z_L_knee_02
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_knee_02
+channel channel_QUATERNION_ROTATE_Y_L_knee_02
+channel channel_QUATERNION_ROTATE_Z_L_knee_02
+channel channel_QUATERNION_ROTATE_W_L_knee_02
+
+# Scale.
+
+channel channel_SCALE_X_L_knee_02
+channel channel_SCALE_Y_L_knee_02
+channel channel_SCALE_Z_L_knee_02
+
+#
+# Animation.
+#
+
+name animation_L_ankle
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_ankle
+channel channel_TRANSLATE_Y_L_ankle
+channel channel_TRANSLATE_Z_L_ankle
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_ankle
+channel channel_QUATERNION_ROTATE_Y_L_ankle
+channel channel_QUATERNION_ROTATE_Z_L_ankle
+channel channel_QUATERNION_ROTATE_W_L_ankle
+
+# Scale.
+
+channel channel_SCALE_X_L_ankle
+channel channel_SCALE_Y_L_ankle
+channel channel_SCALE_Z_L_ankle
+
+#
+# Animation.
+#
+
+name animation_L_toeBall
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_L_toeBall
+channel channel_TRANSLATE_Y_L_toeBall
+channel channel_TRANSLATE_Z_L_toeBall
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_L_toeBall
+channel channel_QUATERNION_ROTATE_Y_L_toeBall
+channel channel_QUATERNION_ROTATE_Z_L_toeBall
+channel channel_QUATERNION_ROTATE_W_L_toeBall
+
+# Scale.
+
+channel channel_SCALE_X_L_toeBall
+channel channel_SCALE_Y_L_toeBall
+channel channel_SCALE_Z_L_toeBall
+
+#
+# Animation.
+#
+
+name animation_R_hip
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_hip
+channel channel_TRANSLATE_Y_R_hip
+channel channel_TRANSLATE_Z_R_hip
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_hip
+channel channel_QUATERNION_ROTATE_Y_R_hip
+channel channel_QUATERNION_ROTATE_Z_R_hip
+channel channel_QUATERNION_ROTATE_W_R_hip
+
+# Scale.
+
+channel channel_SCALE_X_R_hip
+channel channel_SCALE_Y_R_hip
+channel channel_SCALE_Z_R_hip
+
+#
+# Animation.
+#
+
+name animation_R_knee_01
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_knee_01
+channel channel_TRANSLATE_Y_R_knee_01
+channel channel_TRANSLATE_Z_R_knee_01
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_knee_01
+channel channel_QUATERNION_ROTATE_Y_R_knee_01
+channel channel_QUATERNION_ROTATE_Z_R_knee_01
+channel channel_QUATERNION_ROTATE_W_R_knee_01
+
+# Scale.
+
+channel channel_SCALE_X_R_knee_01
+channel channel_SCALE_Y_R_knee_01
+channel channel_SCALE_Z_R_knee_01
+
+#
+# Animation.
+#
+
+name animation_R_knee_02
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_knee_02
+channel channel_TRANSLATE_Y_R_knee_02
+channel channel_TRANSLATE_Z_R_knee_02
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_knee_02
+channel channel_QUATERNION_ROTATE_Y_R_knee_02
+channel channel_QUATERNION_ROTATE_Z_R_knee_02
+channel channel_QUATERNION_ROTATE_W_R_knee_02
+
+# Scale.
+
+channel channel_SCALE_X_R_knee_02
+channel channel_SCALE_Y_R_knee_02
+channel channel_SCALE_Z_R_knee_02
+
+#
+# Animation.
+#
+
+name animation_R_ankle
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_ankle
+channel channel_TRANSLATE_Y_R_ankle
+channel channel_TRANSLATE_Z_R_ankle
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_ankle
+channel channel_QUATERNION_ROTATE_Y_R_ankle
+channel channel_QUATERNION_ROTATE_Z_R_ankle
+channel channel_QUATERNION_ROTATE_W_R_ankle
+
+# Scale.
+
+channel channel_SCALE_X_R_ankle
+channel channel_SCALE_Y_R_ankle
+channel channel_SCALE_Z_R_ankle
+
+#
+# Animation.
+#
+
+name animation_R_toeBall
+
+start 0.000000
+stop 0.833333
+
+# Translate.
+
+channel channel_TRANSLATE_X_R_toeBall
+channel channel_TRANSLATE_Y_R_toeBall
+channel channel_TRANSLATE_Z_R_toeBall
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_R_toeBall
+channel channel_QUATERNION_ROTATE_Y_R_toeBall
+channel channel_QUATERNION_ROTATE_Z_R_toeBall
+channel channel_QUATERNION_ROTATE_W_R_toeBall
+
+# Scale.
+
+channel channel_SCALE_X_R_toeBall
+channel channel_SCALE_Y_R_toeBall
+channel channel_SCALE_Z_R_toeBall
+

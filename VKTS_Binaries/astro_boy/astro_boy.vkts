@@ -1,0 +1,20 @@
+#
+# VulKan ToolS scene.
+#
+
+scene_name Scene
+
+object_library astro_boy_objects.vkts
+
+#
+# Object instance.
+#
+
+object Astro_Boy
+
+name Astro_Boy
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+

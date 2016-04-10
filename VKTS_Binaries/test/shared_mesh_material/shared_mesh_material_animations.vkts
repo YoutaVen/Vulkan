@@ -1,0 +1,6 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library shared_mesh_material_channels.vkts
+

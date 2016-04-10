@@ -1,0 +1,26 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library textured_cube_meshes.vkts
+
+animation_library textured_cube_animations.vkts
+
+#
+# Object.
+#
+
+name Cube
+
+# Node.
+
+node Cube -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube_Mesh
+
+animation animation_Cube
+

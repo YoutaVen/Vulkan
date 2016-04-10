@@ -1,0 +1,19 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library bezier_animation_channels.vkts
+
+#
+# Animation.
+#
+
+name animation_Cube
+
+start 0.000000
+stop 4.000000
+
+# Translate.
+
+channel channel_TRANSLATE_X_Cube
+

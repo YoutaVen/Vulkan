@@ -1,0 +1,79 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library transport_shuttle_channels.vkts
+
+#
+# Animation.
+#
+
+name animation_Transport_Shuttle
+
+start 0.000000
+stop 10.000000
+
+# Translate.
+
+channel channel_TRANSLATE_X_Transport_Shuttle
+channel channel_TRANSLATE_Y_Transport_Shuttle
+channel channel_TRANSLATE_Z_Transport_Shuttle
+
+# Rotate.
+
+channel channel_ROTATE_X_Transport_Shuttle
+channel channel_ROTATE_Y_Transport_Shuttle
+channel channel_ROTATE_Z_Transport_Shuttle
+
+#
+# Animation.
+#
+
+name animation_Bone_Left_Upper_Door
+
+start 0.000000
+stop 10.000000
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_Bone_Left_Upper_Door
+
+#
+# Animation.
+#
+
+name animation_Bone_Left_Lower_Door
+
+start 0.000000
+stop 10.000000
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_Bone_Left_Lower_Door
+
+#
+# Animation.
+#
+
+name animation_Bone_Right_Lower_Door
+
+start 0.000000
+stop 10.000000
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_Bone_Right_Lower_Door
+
+#
+# Animation.
+#
+
+name animation_Bone_Right_Upper_Door
+
+start 0.000000
+stop 10.000000
+
+# Quaternion_Rotate.
+
+channel channel_QUATERNION_ROTATE_X_Bone_Right_Upper_Door
+

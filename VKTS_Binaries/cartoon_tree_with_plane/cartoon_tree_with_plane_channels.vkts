@@ -1,0 +1,28 @@
+#
+# VulKan ToolS channels.
+#
+
+#
+# Channel.
+#
+
+name channel_ROTATE_Y_Animation_Node
+
+target_transform ROTATE
+target_element Y
+
+keyframe 0.000000 0.000000 LINEAR
+keyframe 2.000000 -360.000010 LINEAR
+
+#
+# Channel.
+#
+
+name channel_ROTATE_Z_Plane_Propeller_Node
+
+target_transform ROTATE
+target_element Z
+
+keyframe 0.000000 -0.000000 LINEAR
+keyframe 2.000000 -1440.000040 LINEAR
+

@@ -1,0 +1,1 @@
+Execute `Build_Install.bat` in parent directory to automatically copy assets into this folder.

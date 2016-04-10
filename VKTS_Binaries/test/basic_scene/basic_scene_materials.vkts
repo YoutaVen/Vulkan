@@ -1,0 +1,23 @@
+#
+# VulKan ToolS materials.
+#
+
+texture_library basic_scene_textures.vkts
+
+#
+# Material.
+#
+
+shading Phong
+
+name Material
+
+emissive_color 0.000000 0.000000 0.000000
+alpha_value 1.000000
+displacement_value 0.0
+normal_vector 0.0 0.0 1.0
+phong_ambient_color 0.000000 0.000000 0.000000
+phong_diffuse_color 0.640000 0.640000 0.640000
+phong_specular_color 0.500000 0.500000 0.500000
+phong_specular_shininess_value 12.298039
+

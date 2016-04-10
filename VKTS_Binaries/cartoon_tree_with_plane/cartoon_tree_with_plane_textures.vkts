@@ -1,0 +1,33 @@
+#
+# VulKan ToolS textures.
+#
+
+image_library cartoon_tree_with_plane_images.vkts
+
+#
+# Texture.
+#
+
+name Plane_Texture_texture
+
+mipmap true
+image plane_image
+
+#
+# Texture.
+#
+
+name Trunk_Texture_texture
+
+mipmap true
+image wood_image
+
+#
+# Texture.
+#
+
+name Leaf_Texture_texture
+
+mipmap true
+image leaf_image
+

@@ -1,0 +1,15 @@
+#
+# VulKan ToolS textures.
+#
+
+image_library astro_boy_images.vkts
+
+#
+# Texture.
+#
+
+name Astro_Boy_Texture_texture
+
+mipmap true
+image astro_boy_image
+

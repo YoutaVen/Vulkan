@@ -1,0 +1,56 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library cycles_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name Cube_003
+
+submesh Cube_003_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+
+#
+# Mesh.
+#
+
+name Cube_004
+
+submesh Cube_004_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+
+#
+# Mesh.
+#
+
+name Cube_005
+
+submesh Cube_005_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+
+#
+# Mesh.
+#
+
+name Cube_001
+
+submesh Cube_001_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+
+#
+# Mesh.
+#
+
+name Cube_002
+
+submesh Cube_002_0
+
+aabb 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+

@@ -1,0 +1,32 @@
+#
+# VulKan ToolS scene.
+#
+
+scene_name Scene
+
+object_library shared_mesh_material_objects.vkts
+
+#
+# Object instance.
+#
+
+object Cube_Right
+
+name Cube_Right
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Cube_Left
+
+name Cube_Left
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+

@@ -1,0 +1,88 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library cycles_meshes.vkts
+
+animation_library cycles_animations.vkts
+
+#
+# Object.
+#
+
+name Cube_005
+
+# Node.
+
+node Cube_005 -
+
+translate 0.000000 0.000000 3.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube_005
+
+#
+# Object.
+#
+
+name Cube_004
+
+# Node.
+
+node Cube_004 -
+
+translate 0.000000 0.000000 -3.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube_004
+
+#
+# Object.
+#
+
+name Cube_003
+
+# Node.
+
+node Cube_003 -
+
+translate -3.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube_003
+
+#
+# Object.
+#
+
+name Cube_002
+
+# Node.
+
+node Cube_002 -
+
+translate 3.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube_002
+
+#
+# Object.
+#
+
+name Cube_001
+
+# Node.
+
+node Cube_001 -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cube_001
+

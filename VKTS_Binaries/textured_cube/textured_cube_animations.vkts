@@ -1,0 +1,19 @@
+#
+# VulKan ToolS animations.
+#
+
+channel_library textured_cube_channels.vkts
+
+#
+# Animation.
+#
+
+name animation_Cube
+
+start 0.000000
+stop 6.000000
+
+# Rotate.
+
+channel channel_ROTATE_Y_Cube
+

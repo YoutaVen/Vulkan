@@ -1,0 +1,94 @@
+#
+# VulKan ToolS objects.
+#
+
+mesh_library skinned_cylinder_meshes.vkts
+
+animation_library skinned_cylinder_animations.vkts
+
+#
+# Object.
+#
+
+name Armature
+
+# Node.
+
+node Armature -
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+joints 4
+
+# Node.
+
+node Bone_One Armature
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 0
+
+bind_translate 0.000000 0.000000 0.000000
+bind_rotate 0.000000 -0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Two Bone_One
+
+translate 0.000000 0.000000 0.000000
+rotate 0.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 1
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 -0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+# Node.
+
+node Bone_Three Bone_Two
+
+translate 0.000000 0.000000 0.000000
+rotate 30.000001 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 2
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 -0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_Bone_Three
+
+# Node.
+
+node Bone_Four Bone_Three
+
+translate 0.000000 0.000000 0.000000
+rotate 15.000000 -0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+jointIndex 3
+
+bind_translate 0.000000 1.000000 0.000000
+bind_rotate 0.000000 -0.000000 0.000000
+bind_scale 1.000000 1.000000 1.000000
+
+animation animation_Bone_Four
+
+# Node.
+
+node Cylinder Armature
+
+translate 0.000000 0.000000 -0.000000
+rotate 0.000000 0.000000 0.000000
+scale 1.000000 1.000000 1.000000
+
+mesh Cylinder
+

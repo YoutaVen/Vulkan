@@ -1,0 +1,16 @@
+#
+# VulKan ToolS meshes.
+#
+
+submesh_library basic_skinning_scene_submeshes.vkts
+
+#
+# Mesh.
+#
+
+name T-Bone
+
+submesh T-Bone_0
+
+aabb 0.448429 1.290179 0.674385 1.187670 1.290179 0.950141
+

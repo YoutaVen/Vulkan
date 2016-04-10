@@ -1,0 +1,20 @@
+#
+# VulKan ToolS scene.
+#
+
+scene_name Scene
+
+object_library basic_skinning_scene_objects.vkts
+
+#
+# Object instance.
+#
+
+object Armature
+
+name Armature
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+

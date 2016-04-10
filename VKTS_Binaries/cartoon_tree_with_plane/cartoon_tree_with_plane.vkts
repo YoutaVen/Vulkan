@@ -1,0 +1,44 @@
+#
+# VulKan ToolS scene.
+#
+
+scene_name Scene
+
+object_library cartoon_tree_with_plane_objects.vkts
+
+#
+# Object instance.
+#
+
+object Basement_Node
+
+name Basement_Node
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Orbit_Node
+
+name Orbit_Node
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
+#
+# Object instance.
+#
+
+object Tree_Node
+
+name Tree_Node
+
+translate 0.0 0.0 0.0
+rotate 0.0 0.0 0.0
+scale 1.0 1.0 1.0
+
